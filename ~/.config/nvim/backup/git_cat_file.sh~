@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+#	enter HEAD~1
+echo "Please enter HEAD or object"
+git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize)'
