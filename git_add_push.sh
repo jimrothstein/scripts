@@ -4,6 +4,8 @@
 # define function
 add_commit_push()
 {
+	cd $1
+
 	#		Add files, Commit, Push
 	line="==========================="
 	echo "\n\n"
@@ -34,4 +36,4 @@ add_commit_push()
 }
 
 # run function
-add_commit_push
+add_commit_push  $1 
