@@ -5,7 +5,7 @@
 add_commit_push()
 {
 	#		Add files, Commit, Push
-	line = "==========================="
+	line="==========================="
 	echo $(date) 
 	git s
 	echo $line
