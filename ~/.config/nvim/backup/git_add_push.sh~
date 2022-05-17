@@ -5,14 +5,19 @@
 add_commit_push()
 {
 	#		Add files, Commit, Push
-	line = "==========================="
+	line="==========================="
 	echo $(date) 
 	git s
 	echo $line
 	git a
+
+	echo $line
 	git cm wip
+	echo $line
 	git push
+	echo $line
 	git s
+	echo $line
 }
 
 add_commit_push
