@@ -1,24 +1,34 @@
 #!/bin/zsh
 
 
-
+# define function
 add_commit_push()
 {
 	#		Add files, Commit, Push
 	line="==========================="
 	echo $(date) 
-	echo "status ..." $line
+
+	echo " "
+	echo "STATUS ..." $line
 	git s
-	echo $line
+
+	echo " "
+	echo "ADD FILES ..." $line
 	git a
 
-	echo $line
+	echo " "
+	echo "COMMIT ..." $line
 	git cm wip
-	echo $line
+	
+	echo " "
+	echo "PUSH ..." $line
 	git push
-	echo $line
+	
+	echo " "
+	echo "FINAL STATUS ..." $line
 	git s
 	echo $line
 }
 
+# run function
 add_commit_push

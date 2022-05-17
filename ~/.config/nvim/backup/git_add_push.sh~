@@ -7,15 +7,25 @@ add_commit_push()
 	#		Add files, Commit, Push
 	line="==========================="
 	echo $(date) 
+
+	echo " "
+	echo "status ..." $line
 	git s
-	echo $line
+
+	echo " "
+	echo "add files ..." $line
 	git a
 
-	echo $line
+	echo " "
+	echo "commit ..." $line
 	git cm wip
-	echo $line
+	
+	echo " "
+	echo "push ..." $line
 	git push
-	echo $line
+	
+	echo " "
+	echo "final status ..." $line
 	git s
 	echo $line
 }
