@@ -12,6 +12,7 @@
 # 	any cron jobs
 # 	neovim plugins - any config info NOT in one of my ~/dotfiles?
 # 	-	~/.Renviron - what to do?
+# 	include SPELL  (en.utf-8.add, medical.utf-8.add)
 #
 
 # in  ~/
@@ -21,6 +22,8 @@ ln -sf ~/dotfiles/.Renviron  ~/.Renviron
 ln -sf ~/dotfiles/.zshenv  ~/.zshenv
 
 ln -sf ~/dotfiles/.xinitrc  ~/.xinitrc
+
+# .gitignore should block 
 ln -sf ~/dotfiles/.Renviron  ~/.Renviron
 
 # in ~/dotfiles			 (backup with git)
@@ -47,6 +50,12 @@ ln -sf ~/dotfiles/packer.lua ~/.config/nvim/lua/jim/packer.lua
 ln -sf ~/dotfiles/windows.lua ~/.config/nvim/lua/jim/windows.lua
 ln -sf ~/dotfiles/telescope.lua ~/.config/nvim/lua/jim/telescope.lua
 ln -sf ~/dotfiles/Nvim-R.lua ~/.config/nvim/lua/jim/Nvim-R.lua
+ln -sf ~/dotfiles/treesitter.lua ~/.config/nvim/lua/jim/treesitter.lua
+ln -sf ~/dotfiles/utils.lua ~/.config/nvim/lua/jim/utils.lua
+
+
+# ~/.config/nvim/spell ??
+
 
 
 #
