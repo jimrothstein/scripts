@@ -17,6 +17,7 @@
 
 # in  ~/
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/.gitignore ~/.gitignore
 ln -sf ~/dotfiles/.Rprofile ~/.Rprofile
 ln -sf ~/dotfiles/.Renviron  ~/.Renviron
 ln -sf ~/dotfiles/.zshenv  ~/.zshenv

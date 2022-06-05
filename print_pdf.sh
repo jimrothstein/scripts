@@ -18,6 +18,7 @@
 #
 pandoc "$1" \
 				-f markdown \
+				--pdf-engine=lualatex \
 				--include-in-header ~/dotfiles/geometry.tex \
 				-o "$2"
 
