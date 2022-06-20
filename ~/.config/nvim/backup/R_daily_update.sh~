@@ -1,8 +1,0 @@
-#!/usr/bin/zsh
-
-#	For cron, 
-
-cd ~/code/jimTools/Rscripts
-./all_three_update.sh 
-cd
-

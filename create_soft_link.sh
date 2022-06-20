@@ -33,6 +33,8 @@ ln -sf ~/dotfiles/.Renviron  ~/.Renviron
 
 # from ~/.config  
 
+# ~/.config/tmux/
+ln -sf ~/dotfiles/.tmux.conf 		~/.config/tmux/.tmux.conf
 
 # ~/.config/zsh
 ln -sf ~/dotfiles/.zshrc 		~/.config/zsh/.zshrc

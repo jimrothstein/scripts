@@ -1,7 +1,12 @@
 #!/bin/bash
 ## ~/dotfiles/start_tmux.sh
 
+# file <- "start_tmux.sh"
 
+#Wed Jun 15 16:24:41 PDT 2022
+#	now using .conf for tmux
+
+exit
 
 #### WORKS ####
 
