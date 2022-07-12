@@ -40,7 +40,7 @@ git_add_push.sh .
 cd /home/jim/code/lua_project
 git_add_push.sh .
 
-cd /home/jim/SHINY
+cd /home/jim/code/SHINY
 git_add_push.sh .
 
 cd
