@@ -34,6 +34,9 @@ cd /home/jim/code/try_things_here
 git_add_push.sh .
 
 
+cd /home/jim/code/nvim_project
+git_add_push.sh .
+
 cd /home/jim/code/lua_project
 git_add_push.sh .
 
