@@ -4,6 +4,10 @@
 #		-		error check on arg1
 #		-		include built in arry of directions to ALWAYS run.
 #
+#
+#	USAGE:
+#				-	for specified directory, performs git push
+#				
 # define function
 #
 #	returns true or false
@@ -11,6 +15,7 @@ has_arg() {
 	test -n "$1"
 }
 
+#	
 
 add_commit_push()
 {
@@ -27,29 +32,30 @@ add_commit_push()
 
 	#		Add files, Commit, Push
 	line="==========================="
-	echo "\n\n"
-	echo "BEGIN ..." $line
+	echo "\n"
+	echo $line
 	echo $(date) 
+	echo "BEGIN ..." 
 
-	echo "\n\n"
-	echo "STATUS ..." $line
+	echo "\n"
+	echo "STATUS ..."
 	git s
 
 	
-	echo "\n\n"
-	echo "ADD FILES ..." $line
+	echo "\n"
+	echo "ADD FILES ..." 
 	git a
 
-	echo "\n\n"
-	echo "COMMIT ..." $line
+	echo "\n"
+	echo "COMMIT ..." 
 	git cm wip
 	
-	echo "\n\n"
-	echo "PUSH ..." $line
+	echo "\n"
+	echo "PUSH ..." 
 	git push
 	
-	echo "\n\n"
-	echo "FINAL STATUS ..." $line
+	echo "\n"
+	echo "FINAL STATUS ..."
 	git s
 	echo $line
 }

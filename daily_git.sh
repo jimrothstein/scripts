@@ -9,6 +9,7 @@
 	echo "\n\n"
 	echo "BEGIN ..." $line
 	echo "--- daily_git.sh --- "
+	echo "directory is .... ${1}"
 	echo $(date) 
 	echo $line
 
