@@ -6,7 +6,7 @@
 #		USAGE:		daily_git<CR>
 
 	line="==========================="
-	echo "\n\n"
+	echo "\n"
 	echo "BEGIN ..." $line
 	echo "--- daily_git.sh --- "
 	echo "directory is .... ${1}"
