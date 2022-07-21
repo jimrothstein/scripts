@@ -38,12 +38,12 @@ add_commit_push()
 	echo $(date) 
 	echo ".... BEGIN ... ${1} ... ${PWD}" 
 
-	echo "\n"
+	#echo "\n"
 	echo "....STATUS ..."
 	git s
 
 	
-	echo "\n"
+	#echo "\n"
 	echo "....ADD FILES ..." 
 	git a
 
