@@ -3,6 +3,7 @@
 #	TODO
 #		-		error check on arg1
 #		-		include built in arry of directions to ALWAYS run.
+#		-		if arg1 is "." (current dir) expand to FULL PATH
 #
 #
 #	USAGE:
