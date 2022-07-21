@@ -36,27 +36,27 @@ add_commit_push()
 	echo "\n"
 	echo $line
 	echo $(date) 
-	echo "BEGIN ... ${1} ... ${PWD}" 
+	echo ".... BEGIN ... ${1} ... ${PWD}" 
 
 	echo "\n"
-	echo "STATUS ..."
+	echo "....STATUS ..."
 	git s
 
 	
 	echo "\n"
-	echo "ADD FILES ..." 
+	echo "....ADD FILES ..." 
 	git a
 
 	echo "\n"
-	echo "COMMIT ..." 
+	echo "....COMMIT ..." 
 	git cm wip
 	
 	echo "\n"
-	echo "PUSH ..." 
+	echo "....PUSH ..." 
 	git push
 	
 	echo "\n"
-	echo "FINAL STATUS ..."
+	echo "....FINAL STATUS ..."
 	git s
 	echo $line
 }
