@@ -47,15 +47,15 @@ add_commit_push()
 	echo "....ADD FILES ..." 
 	git a
 
-	echo "\n"
+	#echo "\n"
 	echo "....COMMIT ..." 
 	git cm wip
 	
-	echo "\n"
+	#echo "\n"
 	echo "....PUSH ..." 
 	git push
 	
-	echo "\n"
+	#echo "\n"
 	echo "....FINAL STATUS ..."
 	git s
 	echo $line
